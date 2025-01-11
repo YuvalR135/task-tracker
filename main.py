@@ -1,12 +1,13 @@
 
 from colorama import Fore, Back, Style
-from operations import handle_command 
+from handle_tasks import handle_command 
 
 
 def start_cli():
-    print(Fore.GREEN + "Starting task-tracker CLI", end="")
-    print(Style.RESET_ALL)
+    print(Fore.GREEN + "Starting task-tracker CLI")
+    print(Style.RESET_ALL, end="")
     while True:
+        print(">>>>>>>> ", end="")
         cli_command = input()
         if cli_command == "":
             continue
@@ -15,7 +16,7 @@ def start_cli():
         
         handle_command(cli_command)
             
-        print(Style.RESET_ALL)
+        print(Style.RESET_ALL, end="")
 
 
 
