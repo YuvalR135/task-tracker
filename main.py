@@ -19,7 +19,6 @@ def start_cli():
         print(Style.RESET_ALL, end="")
 
 
-
 def main():
     start_cli()
     
