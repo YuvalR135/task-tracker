@@ -1,0 +1,62 @@
+[
+    {
+        "operation": "help",
+        "description": "task-tracker help will list all command options",
+        "num_of_args": 0,
+        "args_data_types": []
+    },
+    {
+        "operation": "add",
+        "description": "task-tracker add [task description] will add a task to your list",
+        "num_of_args": 1,
+        "args_data_types": ["string"]
+    },
+    {
+        "operation": "update",
+        "description": "task-tracker update [task id] [task description] will update a task in your list",
+        "num_of_args": 2,
+        "args_data_types": ["integer", "string"]
+    },
+    {
+        "operation": "delete",
+        "description": "task-tracker delete [task id] will delete a task from your task list",
+        "num_of_args": 1,
+        "args_data_types": ["integer"]
+    },
+    {
+        "operation": "mark-in-progress",
+        "description": "task-tracker mark-in-progress [task id] will mark a task as in progress",
+        "num_of_args": 1,
+        "args_data_types": ["integer"]
+    },
+    {
+        "operation": "mark-done",
+        "description": "task-tracker mark-done [task id] will mark a task as done",
+        "num_of_args": 1,
+        "args_data_types": ["integer"]
+    },
+    {
+        "operation": "list",
+        "description": "task-tracker list will list all existing tasks",
+        "num_of_args": 0,
+        "args_data_types": []
+    },
+    {
+        "operation": "list done",
+        "description": "task-tracker list done will list all done tasks",
+        "num_of_args": 0,
+        "args_data_types": []
+    },
+    {
+        "operation": "list todo",
+        "description": "task-tracker list todo will list all todo tasks",
+        "num_of_args": 0,
+        "args_data_types": []
+    },
+    {
+        "operation": "list in-progress",
+        "description": "task-tracker list in-progress will list all in-progress tasks",
+        "num_of_args": 0,
+        "args_data_types": []
+    }
+]
